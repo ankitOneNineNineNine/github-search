@@ -55,7 +55,7 @@ Testing is Done with Vitest, Storybooks and React Testing Library
 ## How to run this project?
 
 1. Open terminal in desired drive/folder to clone the project
-2. git clone
+2. git clone https://github.com/ankitOneNineNineNine/github-search.git
 3. Inside the Cloned folder, Open terminal.
 4. Write `npm install --legacy-peer-deps`
 5. After the completion, write `npm start`
