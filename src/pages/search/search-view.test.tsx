@@ -1,12 +1,11 @@
 import { screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { debounce } from "lodash";
 
 import { mockFetchRepoResponse } from "@/__mocks__";
 import { renderWithProviders } from "@/utils/test-utils";
 
-import { SearchView } from "./search-view";
 import { SearchViewProps } from "./search.types";
+import { SearchView } from "./search-view";
 
 const mockProps = {
   searchQuery: "search quewry",
