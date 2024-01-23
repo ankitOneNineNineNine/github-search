@@ -1,0 +1,1530 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Storyshots > 'card' > Default 1`] = `
+<div>
+  <div
+    style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+  />
+  <article
+    aria-label="Card Name"
+    class="_card-container_c37972"
+  >
+    <div
+      class="_container-top_c37972"
+    >
+      <a
+        aria-label="Card Name"
+        class=""
+        href="/details/123"
+      >
+        <p
+          class="_name_c37972"
+        >
+          Card Name
+        </p>
+      </a>
+      <div
+        class="_info-container_c37972"
+      >
+        <div
+          class="_tooltip-container_7b436f"
+        >
+          <div>
+            <i
+              class="fa fa-star"
+            />
+             
+            3
+          </div>
+        </div>
+        <div
+          class="_tooltip-container_7b436f"
+        >
+          <div>
+            <i
+              class="fa fa-eye"
+            />
+             
+            134
+          </div>
+        </div>
+        <div
+          class="_tooltip-container_7b436f"
+        >
+          <div>
+            <i
+              class="fa fa-code-fork"
+            />
+             
+            12
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <p
+        class="_description_c37972"
+      >
+        This is a description text
+      </p>
+    </div>
+    <div
+      class="_date_c37972"
+    >
+      <span>
+        Last Updated On: 
+        12/3/2023
+      </span>
+    </div>
+  </article>
+</div>
+`;
+
+exports[`Storyshots > 'chip' > Default 1`] = `
+<div>
+  <div
+    style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+  />
+  <div
+    class="_chip_fe894d"
+  >
+    Chip Text
+  </div>
+</div>
+`;
+
+exports[`Storyshots > 'details-view' > Loading 1`] = `
+<div>
+  <div
+    style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+  />
+  <div
+    aria-label="spinner"
+    class="_loading-overlay_5021d3"
+  >
+    <div
+      class="_loader_5021d3"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots > 'details-view' > WithContent 1`] = `
+<div>
+  <div
+    style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+  />
+  <main
+    aria-label="details"
+    class="_container_6df8eb"
+  >
+    <header
+      class="_heading_6df8eb"
+    >
+      <div
+        class="_img-container_6df8eb"
+      >
+        <img
+          alt="owner"
+          src="https://avatars.githubusercontent.com/u/17869024?v=4"
+        />
+      </div>
+      <div
+        class="_heading-details_6df8eb"
+      >
+        <a
+          href="https://github.com/asdf-vm/asdf"
+        >
+          <h1>
+            asdf
+          </h1>
+        </a>
+        <a
+          href="https://github.com/asdf-vm"
+        >
+          <span>
+            asdf-vm
+          </span>
+        </a>
+      </div>
+    </header>
+    <section
+      class="_info-container_6df8eb"
+    >
+      <div
+        class="_info_6df8eb"
+      >
+        <div
+          class="_tooltip-container_7b436f"
+        >
+          <div>
+            <i
+              class="fa fa-code-fork"
+            />
+             
+            master
+          </div>
+        </div>
+        <div
+          class="_tooltip-container_7b436f"
+        >
+          <div>
+            <i
+              class="fa fa-github"
+            />
+             
+            162
+          </div>
+        </div>
+        <div
+          class="_tooltip-container_7b436f"
+        >
+          <div>
+            <i
+              class="fa fa-balance-scale"
+            />
+             
+            MIT License
+          </div>
+        </div>
+        <div
+          class="_tooltip-container_7b436f"
+        >
+          <div>
+            <i
+              class="fa fa-book"
+            />
+             
+            Shell
+          </div>
+        </div>
+        <div
+          class="_tooltip-container_7b436f"
+        >
+          <div>
+            <i
+              class="fa fa-code-fork"
+            />
+             
+            777
+          </div>
+        </div>
+        <div
+          class="_tooltip-container_7b436f"
+        >
+          <div>
+            <i
+              class="fa fa-star"
+            />
+             
+            19536
+          </div>
+        </div>
+        <div
+          class="_tooltip-container_7b436f"
+        >
+          <div>
+            <i
+              class="fa fa-unlock"
+            />
+             
+          </div>
+        </div>
+      </div>
+      <article
+        class="_description-container_6df8eb"
+      >
+        <h3>
+          Description
+        </h3>
+        <p>
+          Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more
+        </p>
+      </article>
+      <div>
+        <h5>
+          Topics
+        </h5>
+        <div
+          class="_chip_fe894d"
+        >
+          asdf-vm
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          bash
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          cli
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          elixir
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          elvish
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          erlang
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          fish
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          golang
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          multiple-languages
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          node
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          nushell
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          powershell
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          python
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          ruby
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          shell
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          version-manager
+        </div>
+        <div
+          class="_chip_fe894d"
+        >
+          zsh
+        </div>
+      </div>
+      <div
+        class="_dates_6df8eb"
+      >
+        <div>
+          <h3>
+            Created At
+          </h3>
+          <p>
+            11/29/2014
+          </p>
+        </div>
+        <div>
+          <h3>
+            Last Updated On
+          </h3>
+          <p>
+            1/23/2024
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+`;
+
+exports[`Storyshots > 'dropdown' > Default 1`] = `
+<div>
+  <div
+    style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+  />
+  <div>
+    <select
+      class="_select_3f642b"
+    >
+      <option
+        selected=""
+        value="10"
+      >
+        10
+      </option>
+      <option
+        value="20"
+      >
+        20
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`Storyshots > 'pagination' > Default 1`] = `
+<div>
+  <div
+    style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+  />
+  <div
+    class="_paginate-container_0c87fd"
+  >
+    <button
+      aria-label="page 1"
+      class="_pages_0c87fd"
+      disabled=""
+      style="background-color: rgb(82, 152, 233);"
+    >
+      1
+    </button>
+    <button
+      aria-label="page 2"
+      class="_pages_0c87fd"
+    >
+      2
+    </button>
+    <button
+      aria-label="page 3"
+      class="_pages_0c87fd"
+    >
+      3
+    </button>
+    <button
+      aria-label="page 4"
+      class="_pages_0c87fd"
+    >
+      4
+    </button>
+    <button
+      aria-label="page 5"
+      class="_pages_0c87fd"
+    >
+      5
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots > 'pagination' > ManyPages 1`] = `
+<div>
+  <div
+    style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+  />
+  <div
+    class="_paginate-container_0c87fd"
+  >
+    <button
+      aria-label="page 1"
+      class="_pages_0c87fd"
+      disabled=""
+      style="background-color: rgb(82, 152, 233);"
+    >
+      1
+    </button>
+    <button
+      aria-label="page 2"
+      class="_pages_0c87fd"
+    >
+      2
+    </button>
+    <button
+      aria-label="page 3"
+      class="_pages_0c87fd"
+    >
+      3
+    </button>
+    <button
+      aria-label="page 4"
+      class="_pages_0c87fd"
+    >
+      4
+    </button>
+    <button
+      aria-label="page 5"
+      class="_pages_0c87fd"
+    >
+      5
+    </button>
+    <span
+      class="_paginateDots_0c87fd"
+    >
+      ....
+    </span>
+    <button
+      aria-label="page 100"
+      class="_pages_0c87fd"
+    >
+      100
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots > 'search-input' > Default 1`] = `
+<div>
+  <div
+    style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+  />
+  <div
+    class="_search-container_ce15b4"
+  >
+    <input
+      aria-label="search"
+      placeholder="Search Query ..."
+      type="search"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots > 'search-view' > Loading 1`] = `
+<div>
+  <div
+    style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+  />
+  <main>
+    <header>
+      <h2
+        class="_header_318aa9"
+      >
+        Search Github Repositories
+      </h2>
+      <nav
+        class="_nav_318aa9"
+      >
+        <div
+          class="_search-container_ce15b4"
+        >
+          <input
+            aria-label="search"
+            placeholder="Search Query ..."
+            type="search"
+          />
+        </div>
+        <div
+          class="_filter_318aa9"
+        >
+          <div>
+            <select
+              class="_select_3f642b"
+            >
+              <option
+                selected=""
+                value="forks-desc"
+              >
+                Most Forks
+              </option>
+              <option
+                value="forks-asc"
+              >
+                Least Forks
+              </option>
+              <option
+                value="stars-desc"
+              >
+                Most Stars
+              </option>
+              <option
+                value="stars-asc"
+              >
+                Least Stars
+              </option>
+              <option
+                value="updated-desc"
+              >
+                Recent Updated
+              </option>
+              <option
+                value="updated-asc"
+              >
+                Oldest Updated
+              </option>
+            </select>
+          </div>
+          <div>
+            <select
+              class="_select_3f642b"
+            >
+              <option
+                selected=""
+                value="10"
+              >
+                10
+              </option>
+              <option
+                value="25"
+              >
+                25
+              </option>
+              <option
+                value="50"
+              >
+                50
+              </option>
+            </select>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div
+        aria-label="spinner"
+        class="_loading-overlay_5021d3"
+      >
+        <div
+          class="_loader_5021d3"
+        />
+      </div>
+    </section>
+  </main>
+</div>
+`;
+
+exports[`Storyshots > 'search-view' > WithContent 1`] = `
+<div>
+  <div
+    style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+  />
+  <main>
+    <header>
+      <h2
+        class="_header_318aa9"
+      >
+        Search Github Repositories
+      </h2>
+      <nav
+        class="_nav_318aa9"
+      >
+        <div
+          class="_search-container_ce15b4"
+        >
+          <input
+            aria-label="search"
+            placeholder="Search Query ..."
+            type="search"
+          />
+        </div>
+        <div
+          class="_filter_318aa9"
+        >
+          <div>
+            <select
+              class="_select_3f642b"
+            >
+              <option
+                selected=""
+                value="forks-desc"
+              >
+                Most Forks
+              </option>
+              <option
+                value="forks-asc"
+              >
+                Least Forks
+              </option>
+              <option
+                value="stars-desc"
+              >
+                Most Stars
+              </option>
+              <option
+                value="stars-asc"
+              >
+                Least Stars
+              </option>
+              <option
+                value="updated-desc"
+              >
+                Recent Updated
+              </option>
+              <option
+                value="updated-asc"
+              >
+                Oldest Updated
+              </option>
+            </select>
+          </div>
+          <div>
+            <select
+              class="_select_3f642b"
+            >
+              <option
+                selected=""
+                value="10"
+              >
+                10
+              </option>
+              <option
+                value="25"
+              >
+                25
+              </option>
+              <option
+                value="50"
+              >
+                50
+              </option>
+            </select>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <article
+        aria-label="asdf-vm/asdf"
+        class="_card-container_c37972"
+      >
+        <div
+          class="_container-top_c37972"
+        >
+          <a
+            aria-label="asdf-vm/asdf"
+            class=""
+            href="/details/27291507"
+          >
+            <p
+              class="_name_c37972"
+            >
+              asdf-vm/asdf
+            </p>
+          </a>
+          <div
+            class="_info-container_c37972"
+          >
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-star"
+                />
+                 
+                19.536k
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-eye"
+                />
+                 
+                19.536k
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-code-fork"
+                />
+                 
+                777
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p
+            class="_description_c37972"
+          >
+            Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more
+          </p>
+        </div>
+        <div
+          class="_date_c37972"
+        >
+          <span>
+            Last Updated On: 
+            1/23/2024
+          </span>
+        </div>
+      </article>
+      <article
+        aria-label="ajdamico/asdfree"
+        class="_card-container_c37972"
+      >
+        <div
+          class="_container-top_c37972"
+        >
+          <a
+            aria-label="ajdamico/asdfree"
+            class=""
+            href="/details/4892935"
+          >
+            <p
+              class="_name_c37972"
+            >
+              ajdamico/asdfree
+            </p>
+          </a>
+          <div
+            class="_info-container_c37972"
+          >
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-star"
+                />
+                 
+                593
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-eye"
+                />
+                 
+                593
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-code-fork"
+                />
+                 
+                464
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p
+            class="_description_c37972"
+          >
+            analyze survey data for free
+          </p>
+        </div>
+        <div
+          class="_date_c37972"
+        >
+          <span>
+            Last Updated On: 
+            1/17/2024
+          </span>
+        </div>
+      </article>
+      <article
+        aria-label="asdf-vm/asdf-plugins"
+        class="_card-container_c37972"
+      >
+        <div
+          class="_container-top_c37972"
+        >
+          <a
+            aria-label="asdf-vm/asdf-plugins"
+            class=""
+            href="/details/98380176"
+          >
+            <p
+              class="_name_c37972"
+            >
+              asdf-vm/asdf-plugins
+            </p>
+          </a>
+          <div
+            class="_info-container_c37972"
+          >
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-star"
+                />
+                 
+                1.063k
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-eye"
+                />
+                 
+                1.063k
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-code-fork"
+                />
+                 
+                420
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p
+            class="_description_c37972"
+          >
+            Convenience shortname repository for asdf community plugins
+          </p>
+        </div>
+        <div
+          class="_date_c37972"
+        >
+          <span>
+            Last Updated On: 
+            1/23/2024
+          </span>
+        </div>
+      </article>
+      <article
+        aria-label="asdf-vm/asdf-nodejs"
+        class="_card-container_c37972"
+      >
+        <div
+          class="_container-top_c37972"
+        >
+          <a
+            aria-label="asdf-vm/asdf-nodejs"
+            class=""
+            href="/details/36155793"
+          >
+            <p
+              class="_name_c37972"
+            >
+              asdf-vm/asdf-nodejs
+            </p>
+          </a>
+          <div
+            class="_info-container_c37972"
+          >
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-star"
+                />
+                 
+                821
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-eye"
+                />
+                 
+                821
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-code-fork"
+                />
+                 
+                174
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p
+            class="_description_c37972"
+          >
+            Node.js plugin for asdf version manager
+          </p>
+        </div>
+        <div
+          class="_date_c37972"
+        >
+          <span>
+            Last Updated On: 
+            1/22/2024
+          </span>
+        </div>
+      </article>
+      <article
+        aria-label="kimasendorf/ASDFPixelSort"
+        class="_card-container_c37972"
+      >
+        <div
+          class="_container-top_c37972"
+        >
+          <a
+            aria-label="kimasendorf/ASDFPixelSort"
+            class=""
+            href="/details/6094104"
+          >
+            <p
+              class="_name_c37972"
+            >
+              kimasendorf/ASDFPixelSort
+            </p>
+          </a>
+          <div
+            class="_info-container_c37972"
+          >
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-star"
+                />
+                 
+                550
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-eye"
+                />
+                 
+                550
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-code-fork"
+                />
+                 
+                132
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p
+            class="_description_c37972"
+          >
+            Processing script to sort portions of pixels in an image.
+          </p>
+        </div>
+        <div
+          class="_date_c37972"
+        >
+          <span>
+            Last Updated On: 
+            1/22/2024
+          </span>
+        </div>
+      </article>
+      <article
+        aria-label="asdf-vm/asdf-ruby"
+        class="_card-container_c37972"
+      >
+        <div
+          class="_container-top_c37972"
+        >
+          <a
+            aria-label="asdf-vm/asdf-ruby"
+            class=""
+            href="/details/31580099"
+          >
+            <p
+              class="_name_c37972"
+            >
+              asdf-vm/asdf-ruby
+            </p>
+          </a>
+          <div
+            class="_info-container_c37972"
+          >
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-star"
+                />
+                 
+                597
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-eye"
+                />
+                 
+                597
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-code-fork"
+                />
+                 
+                127
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p
+            class="_description_c37972"
+          >
+            Ruby plugin for asdf version manager
+          </p>
+        </div>
+        <div
+          class="_date_c37972"
+        >
+          <span>
+            Last Updated On: 
+            1/17/2024
+          </span>
+        </div>
+      </article>
+      <article
+        aria-label="asdf-vm/asdf-erlang"
+        class="_card-container_c37972"
+      >
+        <div
+          class="_container-top_c37972"
+        >
+          <a
+            aria-label="asdf-vm/asdf-erlang"
+            class=""
+            href="/details/27335476"
+          >
+            <p
+              class="_name_c37972"
+            >
+              asdf-vm/asdf-erlang
+            </p>
+          </a>
+          <div
+            class="_info-container_c37972"
+          >
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-star"
+                />
+                 
+                421
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-eye"
+                />
+                 
+                421
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-code-fork"
+                />
+                 
+                114
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p
+            class="_description_c37972"
+          >
+            Erlang plugin for asdf version manager
+          </p>
+        </div>
+        <div
+          class="_date_c37972"
+        >
+          <span>
+            Last Updated On: 
+            1/21/2024
+          </span>
+        </div>
+      </article>
+      <article
+        aria-label="lushtree-cn-honeyzhao/WeixinMultiPlatform"
+        class="_card-container_c37972"
+      >
+        <div
+          class="_container-top_c37972"
+        >
+          <a
+            aria-label="lushtree-cn-honeyzhao/WeixinMultiPlatform"
+            class=""
+            href="/details/32510526"
+          >
+            <p
+              class="_name_c37972"
+            >
+              lushtree-cn-honeyzhao/WeixinMultiPlatform
+            </p>
+          </a>
+          <div
+            class="_info-container_c37972"
+          >
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-star"
+                />
+                 
+                161
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-eye"
+                />
+                 
+                161
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-code-fork"
+                />
+                 
+                111
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p
+            class="_description_c37972"
+          >
+            weixin-mp-java 基于Java，Spring，Maven实现的微信公众平台一整套代码，从前端Controller到后端的Dao的实现&lt;br /&gt; ==============  1.0.1 2013-1月更新: 支持上传下载多媒体文件 支持接收消息(语音似乎总有问题,同时收到来自微信两个服务器的空的POST的请求,论坛上也有很多人反映此情况) 支持用户管理 支持自定义菜单CRD 支持推广支持接口  强化测试代码 优化代码结构,增加WxMessageHandlerIfc, 只要实现该接口的所有spring bean在收到消息后都会被自动调用.  ==============  实现功能：消息接口,通用接口和菜单接口（没有内测号无法测试）&lt;br /&gt;  ==============  由于涉及的框架比较杂乱，在此一一解释：&lt;br /&gt;  1. 简便实用的前置条件：&lt;br /&gt;    你的项目是基于Spring，Maven，Hibernate架构；&lt;br /&gt;    你的项目至少有一个已经存在的配置文件；&lt;br /&gt;    需要在配置文件(例子：application.properties)中添加&lt;br /&gt;      wx_token=your_token&lt;br /&gt;      wx_appid=asdf&lt;br /&gt;      wx_appsecret=secret&lt;br /&gt;    没有在线的Maven仓库，强烈建议clone代码到本地作为子工程使用；&lt;br /&gt;  2. 如果你是通过spring-annotation配置bean的话，那么只要在你的Spring xml配置文件里加入以下两句便可：&lt;br /&gt;    	&lt;context:component-scan base-package="com.hamster.weixinmp" /&gt;&lt;br /&gt; 	&lt;util:properties id="wxProperties" location="classpath:/application.properties"/&gt;&lt;br /&gt;    如果没有util的话，在beans xml声明中加入：&lt;br /&gt;       xmlns:util="http://www.springframework.org/schema/util"&lt;br /&gt;       xsi:schemaLocation="…..&lt;br /&gt; 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.1.xsd"&lt;br /&gt;    在org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean的packageToScan中添加org.hamster.weixinmp.dao  3. 如果不想用数据库，那么只扫描com.hamster.weixinmp.service和com.hamster.weixinmp.controller即可，所有的dao在wxService中配置模式均为可选，如果没有注入，则不会执行存储操作；&lt;br /&gt;  4. 项目使用了lombok生成Getter/Setter, toString, hashCode, equals方法，lombok有eclipse插件，具体怎么安装请看这里：http://projectlombok.org/download.html，如果不想用lombok的话那么就手动删掉那些注解并用eclipse等工具重新生成一下这些方法便可。&lt;br /&gt;  5. 如果你的项目是通过xml的方式配置的话，你需要将所有的dao，service和controller配置到xml中（浩大的工程= =）&lt;br /&gt;  6. 数据库的前缀为wx_，一般来说不会有冲突，真冲突了那就自己手动改改吧，反正也不麻烦&lt;br /&gt;  7. 数据库有些额外的字段，比如自增长的id，created_date等，用不到就无视吧&lt;br /&gt;  8. 如果你不用maven的话……那就把java代码都拷贝到自己的工程里面去吧……&lt;br /&gt;
+          </p>
+        </div>
+        <div
+          class="_date_c37972"
+        >
+          <span>
+            Last Updated On: 
+            9/24/2023
+          </span>
+        </div>
+      </article>
+      <article
+        aria-label="asdf-community/asdf-php"
+        class="_card-container_c37972"
+      >
+        <div
+          class="_container-top_c37972"
+        >
+          <a
+            aria-label="asdf-community/asdf-php"
+            class=""
+            href="/details/70976275"
+          >
+            <p
+              class="_name_c37972"
+            >
+              asdf-community/asdf-php
+            </p>
+          </a>
+          <div
+            class="_info-container_c37972"
+          >
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-star"
+                />
+                 
+                197
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-eye"
+                />
+                 
+                197
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-code-fork"
+                />
+                 
+                92
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p
+            class="_description_c37972"
+          >
+            PHP plugin for the asdf version manager
+          </p>
+        </div>
+        <div
+          class="_date_c37972"
+        >
+          <span>
+            Last Updated On: 
+            1/20/2024
+          </span>
+        </div>
+      </article>
+      <article
+        aria-label="halcyon/asdf-java"
+        class="_card-container_c37972"
+      >
+        <div
+          class="_container-top_c37972"
+        >
+          <a
+            aria-label="halcyon/asdf-java"
+            class=""
+            href="/details/183291853"
+          >
+            <p
+              class="_name_c37972"
+            >
+              halcyon/asdf-java
+            </p>
+          </a>
+          <div
+            class="_info-container_c37972"
+          >
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-star"
+                />
+                 
+                399
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-eye"
+                />
+                 
+                399
+              </div>
+            </div>
+            <div
+              class="_tooltip-container_7b436f"
+            >
+              <div>
+                <i
+                  class="fa fa-code-fork"
+                />
+                 
+                85
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p
+            class="_description_c37972"
+          >
+            A Java plugin for asdf-vm.
+          </p>
+        </div>
+        <div
+          class="_date_c37972"
+        >
+          <span>
+            Last Updated On: 
+            1/23/2024
+          </span>
+        </div>
+      </article>
+      <div
+        class="_paginate-container_0c87fd"
+      >
+        <button
+          aria-label="page 1"
+          class="_pages_0c87fd"
+          disabled=""
+          style="background-color: rgb(82, 152, 233);"
+        >
+          1
+        </button>
+        <button
+          aria-label="page 2"
+          class="_pages_0c87fd"
+        >
+          2
+        </button>
+        <button
+          aria-label="page 3"
+          class="_pages_0c87fd"
+        >
+          3
+        </button>
+        <button
+          aria-label="page 4"
+          class="_pages_0c87fd"
+        >
+          4
+        </button>
+        <button
+          aria-label="page 5"
+          class="_pages_0c87fd"
+        >
+          5
+        </button>
+        <span
+          class="_paginateDots_0c87fd"
+        >
+          ....
+        </span>
+        <button
+          aria-label="page 100"
+          class="_pages_0c87fd"
+        >
+          100
+        </button>
+      </div>
+    </section>
+  </main>
+</div>
+`;
+
+exports[`Storyshots > 'spinner' > Default 1`] = `
+<div>
+  <div
+    style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+  />
+  <div
+    aria-label="spinner"
+    class="_loading-overlay_5021d3"
+  >
+    <div
+      class="_loader_5021d3"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots > 'tooltip' > Default 1`] = `
+<div>
+  <div
+    style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+  />
+  <div
+    style="margin-top: 20px;"
+  >
+    <div
+      class="_tooltip-container_7b436f"
+    >
+      <div>
+        <i
+          class="fa fa-star"
+        />
+         
+        tooltip text
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots > 'tooltip' > VisibleTooltip 1`] = `
+<div>
+  <div
+    style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+  />
+  <div
+    style="margin-top: 20px;"
+  >
+    <div
+      class="_tooltip-container_7b436f"
+    >
+      <div>
+        <i
+          class="fa fa-star"
+        />
+         
+        tooltip text
+      </div>
+      <div
+        class="_tooltip_7b436f"
+      >
+        tip
+      </div>
+    </div>
+  </div>
+</div>
+`;

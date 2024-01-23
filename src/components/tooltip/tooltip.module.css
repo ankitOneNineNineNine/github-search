@@ -1,0 +1,15 @@
+.tooltip-container {
+  position: relative;
+  box-shadow: none;
+  padding: 2px;
+  width: 300px;
+}
+.tooltip {
+  position: absolute;
+  background: black;
+  top: -30px;
+  color: white;
+  width: "100%";
+  font-size: 14px;
+  padding: 3px;
+}

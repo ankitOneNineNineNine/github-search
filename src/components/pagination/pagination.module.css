@@ -1,0 +1,35 @@
+.paginate-container {
+  display: flex;
+  padding: 0 150px;
+  justify-content: center;
+  margin: 10px 0;
+  margin-bottom: 20px;
+}
+.pages {
+  background: #161b22;
+  border: 0;
+  color: white;
+  display: inline-flex;
+  padding: 10px;
+  width: 50px;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.paginateDots {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 950px) {
+  .paginate-container {
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .pages {
+    margin: 2px;
+  }
+}

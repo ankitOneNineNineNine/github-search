@@ -1,0 +1,19 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+#Get Commit Message
+commit_msg=$(cat $1)
+
+# Generate Commit Regexp Based on Ticket Number
+commit_regex="(feat|fix|chore|refactor|test|style|docs)"
+
+# Generate Error Message Based on Ticket Number
+error_msg="Aborting commit. Incorrect Commit Message. Your commit message should have a SCOPE.\n Allowed Scopes:\n feat\n fix\n chore\n refactor\n test\n style\n docs\n"
+
+# Validate commit message param
+if [[ "$commit_msg" =~ $commit_regex ]]; then
+  echo "Your commit message is flawless 💎"
+else
+  echo "${error_msg}"
+  exit 1
+fi
