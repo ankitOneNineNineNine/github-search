@@ -14,13 +14,6 @@ Testing is Done with Vitest, Storybooks and React Testing Library
 
 - Npm Package Manager
 
-# Settting up the App
-
-- Clone the repo
-- Go inside the project folder
-- Run the command `npm install --legacy-peer-deps`
-- Run the command `npm run dev`
-
 # Tools Used in the App
 
 - `React`
@@ -36,6 +29,11 @@ Testing is Done with Vitest, Storybooks and React Testing Library
 - ESLint
 - Prettier
 - Husky
+
+# Routes
+
+- `/` - This is the search page. You have to Enter certain value on textbox to start searching and to get the data
+- `/details/:id` - This is the details page for [id] of particular repository
 
 # Available Scripts
 
@@ -58,4 +56,9 @@ Testing is Done with Vitest, Storybooks and React Testing Library
 2. git clone https://github.com/ankitOneNineNineNine/github-search.git
 3. Inside the Cloned folder, Open terminal.
 4. Write `npm install --legacy-peer-deps`
-5. After the completion, write `npm start`
+5. After the completion, write `npm run dev` (dev mode)
+6. If you want to preview prod built, <br>Perform `npm run build` & `npm run preview`
+   <br>
+   <i>Both the dev / prod run will start at PORT 4000</i>
+   <br>
+   <i>IF you want to change this, visit `vite.config.ts` and change port property of server and/or preview</i>

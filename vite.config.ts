@@ -1,6 +1,6 @@
-import { defineConfig } from "vite";
-import path from "path";
 import react from "@vitejs/plugin-react-swc";
+import path from "path";
+import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig(async () => ({
@@ -17,7 +17,12 @@ export default defineConfig(async () => ({
     snapshotFormat: { escapeString: true, printBasicPrototype: true },
   },
   plugins: [react()],
-  
+  server: {
+    port: 4000,
+  },
+  preview: {
+    port: 4000,
+  },
   resolve: {
     extensions: [".mdx", ".js", ".ts", ".jsx", ".tsx", ".json", ".vue", ".scss"],
     alias: [{ find: "@", replacement: path.resolve(__dirname, "/src") }],
