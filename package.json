@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://65af680a207a04b146e1b6bd--github-api-search-1999.netlify.app/",
+  "homepage": "https://65b0e22d8b68a76cb4209738--github-api-search-1999.netlify.app/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
