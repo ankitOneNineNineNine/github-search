@@ -76,6 +76,7 @@ export const useSearch: UseSearchFn = () => {
    */
   const onChangePerPage = (value: number | string) => {
     setPerPage(value as number);
+    setPage(1);
   };
 
   /**

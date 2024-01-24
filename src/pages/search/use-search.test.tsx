@@ -36,7 +36,7 @@ describe("Given useSearch", () => {
       expect(search).toBeCalledWith(
         expect.objectContaining({
           order: "desc",
-          page: 2,
+          page: 1,
           per_page: 50,
           q: "",
           sort: "forks",
